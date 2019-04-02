@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="Stylesheet" type="text/css" href="reset.css"/>
+    <link rel="Stylesheet" type="text/css" href="styles.css"/>
+
+</head>
+<body>
+    <header>World Capitals Quiz</header>
+    <div class="mainPart">
+        <div id="startMenu">
+        <div class="start">START</div>
+
+            <h2 id="settab">Settings</h2>
+            <div id="more" class="none">
+                <div id="all">
+                    <label class="label" for="number">Nmber of Answeres</label>
+                    <select id="number" class="part">
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <label class="label" for="region">Region</label>
+                    <select id="region" class="part">
+                        <option>Europe</option>
+                        <option>Asia</option>
+                    </select>
+                    <label class="label" for="number">Nmber of Answeres</label>
+                    <select id="type" class="part">
+                        <option>Hot Streak</option>
+                        <option>Clasic 5 Question</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div id="question">
+            <div id="q">
+                <ul id="points">
+                </ul>
+                <h2 class="qpart" id="text">Warszawa to stlica</h2>
+                <ul id="answeres"></ul>
+                <div id="next">NEXT QUESTION</div>
+            </div>
+        </div>
+        <div id="end">
+            <div id="endInfo">
+                <div id="info"></div>
+                <div id="continue">CONTINUE</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script  src="capitalCity.js"></script>
+</body>
+</html>
